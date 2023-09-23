@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <section class="cards-container">
+            <div class="card">
+                <div><img src="images/card4.jpg" class="card-image" alt="Camping at Aburi"></img></div>
+                    <h2>Aburi</h2>
+                    <p>This is a popular spot for most tourists as it is closest to the city.
+                      Everyone is friendly and ready to speak to you.
+                    </p>
+                    <a href="#">READ MORE</a>
+            </div>
+
+            <div class="card">
+                <div><img src="images/card2.jpg" class="card-image" alt="Camping at Ho"></img></div>
+                    <h2>Ho</h2>
+                    <p>Ho is a place for the adventerous. You may hike for 2 hours in order to get to good 
+                      wild camping.
+                    </p>
+                    <a href="#">READ MORE</a>
+            </div>
+
+            <div class="card">
+                <div><img src="images/card3.jpg" class="card-image" alt="Camping at Tagbo"></img></div>
+                    <h2>Tagbo</h2>
+                    <p>A magical place to find a twin waterfall. Danger free wildlife is all around.
+                    </p>
+                    <a href="#">READ MORE</a>
+            </div>
+        </section>

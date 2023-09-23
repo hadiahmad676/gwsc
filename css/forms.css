@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+* {
+	margin: 0;
+  	padding: 0;
+ 	box-sizing: border-box;
+  	list-style: none;
+ 	text-decoration: none;
+	font-family: 'Carlito', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.register-container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #f9f9f9;;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.register-container form .user-details {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+
+.user-details .input-box .details {
+    margin-bottom: 5px;
+    font-weight: 500;
+    display: block;
+    color: #37a000;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #37a000;;
+}
+
+form .register-button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .register-button input, a, button{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #37a000;
+    border: 2px solid #f9f9f9;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+form .register-button input:hover {
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+form .register-button a:hover {
+    background: #f9f9f9;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form .register-button button:hover {
+    background: #f9f9f9;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width: 584px) {
+    .register-container {
+        max-width: 100%;
+    }
+
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    form .gender-details .category {
+        width: 100%;
+    }
+
+    .register-container form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+
+}
+
+.user-details .input-box textarea {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box textarea:hover {
+    border-color: #37a000;
+}
+
+.pitchSearch label {
+    font-size: 26px;
+}
+
+table {
+    display: flex;
+    border: 2px solid;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+table tr, td {
+    width: 40%;
+}
+
+table th {
+    text-decoration: underline;
+}
+
+@media (max-width: 771px) {
+    table {
+        width: 50%;
+}
+
+@media (max-width: 481px) {
+    table {
+        width: 100px;
+}
